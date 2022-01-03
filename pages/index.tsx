@@ -9,7 +9,7 @@ const STATES = {
   complete: "complete",
 };
 
-function index() {
+function Home() {
   const [msg, setMsg] = useState("");
   const [encodedArray, setEncodedArray] = useState(null);
   const [encodedMsg, setEncodedMsg] = useState("");
@@ -124,4 +124,4 @@ function index() {
   );
 }
 
-export default index;
+export default Home;
